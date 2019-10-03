@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: aws-cli-to-console
+Version: 1.0.0
+Summary: A tool which generates a URL for the AWS console
+Home-page: https://github.com/connorwilliamscr/aws-cli-to-console.git
+Author: Connor Williams
+Author-email: connor.williams@cloudreach.com
+License: UNKNOWN
+Description: A tool which builds a signed URL for AWS console login for any profile in your ~/.aws/config
+        
+        Only works on unix based systems
+        
+        ## Installation
+        
+        `pip install `
+        
+        ## Prerequisites
+        
+        ### Set up profile in `~/.aws/config`
+        
+        #### Normal profile
+        
+        *Example of normal profile*
+        
+        
+        #### [Role Chaining](https://docs.aws.amazon.com/IAM/latest/UserGuide/id_roles_terms-and-concepts.html#iam-term-role-chaining)
+        
+        When you use a role to assume a second role.
+        
+        *Example of role chaining from aws config file (source_profile)*
+        
+        ## Usage
+        
+        *Paste output from help command*
+        
+        Get help with `python cli-to-console --help`
+        
+        Get URL to console for any profile in `~/.aws/config` with `python cli-to-console --profile profilename`
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

@@ -1,0 +1,6 @@
+README.md
+setup.py
+aws_cli_to_console.egg-info/PKG-INFO
+aws_cli_to_console.egg-info/SOURCES.txt
+aws_cli_to_console.egg-info/dependency_links.txt
+aws_cli_to_console.egg-info/top_level.txt
