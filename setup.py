@@ -18,4 +18,9 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
+    entry_points={
+        'console_scripts': [
+            'aws-cli-to-console = cli_to_console.cli_to_console:cli'
+        ]
+    }
 )

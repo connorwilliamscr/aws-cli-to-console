@@ -8,7 +8,7 @@ import boto3
 import botocore
 import requests
 
-import argparser as argparser
+import cli_to_console.argparser as argparser
 
 logger = logging.basicConfig()
 logger = logging.getLogger(__name__)
@@ -158,4 +158,7 @@ def main(args):
 
 
 if __name__ == '__main__':
+    main(argparser.get_arguments(sys.argv[1:]))
+
+def cli():
     main(argparser.get_arguments(sys.argv[1:]))
